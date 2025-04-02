@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+.main-div{
+  text-align:center;
+  margin-block: 3rem;
+}
+.main-div h1{
+  margin-block:3rem;
+  font-style:oblique;
+  font-size: 3rem;
+}
+.first-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-form input{
+border-radius: 5px;
+padding: .2rem 1rem;
+width:25rem;
+height:2.5rem;
+
+}
+.form-sec input{
+  border-radius: 5px;
+  padding: .2rem 1rem;
+  width:auto;
+  height:2.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+.first-form button{
+  height: 2.5rem;
+padding-inline:1.5rem ;
+background: black;
+color: white;
+font-size: 1rem;
+border-radius: 5px;
+}
+.list li{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 1.2rem;
+font-weight: 450;
+margin-top: 2rem;
+border: 2px solid lightgray;
+border-radius: 5px;
+margin-inline:auto ;
+width: 520px;
+height: 3rem;
+}
+.save , .cancel{
+  padding: .2rem 1rem;
+color: white;
+border: none;
+font-size: 1rem;
+}
+.cancel{
+  background: gray;
+  margin-left: 1rem;
+}
+.save{
+  background: yellowgreen;
+}
+.remove, .editbtn{
+  padding: .2rem 1rem;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.remove{
+background: red;
+}
+.editbtn {
+  background: green;
+  padding-inline:1.5rem;
+}
+.btn-div{
+  margin-left: 1rem;
+  display: flex;
+  gap: 5px;
+}
